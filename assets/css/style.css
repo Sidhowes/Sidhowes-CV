@@ -22,6 +22,21 @@
     background-color: #525252
 }
 
+/*----------------------------------------------SPECIAL PADDINGS/MARGINS/TEXT*/
+
+h1, h2, h3, h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+}
 
 
 /*----------------------------------------------HEADING*/
@@ -35,7 +50,7 @@ header {
 }
 
 .logo {
-    background: url(https://raw.githubusercontent.com/Code-Institute-Solutions/resume-miniproject-bootstrap4/master/03-adding-profile-pic/assets/images/rosie.jpg);
+    background: url(https://scontent-lhr8-1.cdninstagram.com/v/t51.2885-19/s150x150/98318419_689749568478154_7072369380415242240_n.jpg?_nc_ht=scontent-lhr8-1.cdninstagram.com&_nc_ohc=dkK_cHeLPm8AX-iRD1I&oh=b117162b341e79b58437ea7262193fa7&oe=5F059AE6);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -115,6 +130,15 @@ header {
 .hvr-sweep-to-bottom::before {
     background: rgba(0,0, 0, .2);
     height: 120px;
+}
+
+/*----------------------------------------------FOOTER*/    
+
+footer {
+    background-color: #525252;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
 
 
